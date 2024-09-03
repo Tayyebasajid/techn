@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>texhnexus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body class="">
+    <!-- Background section -->
+    <section style="background-image: url(BG\ \(3\).jpg);" class="w-full lg:h-screen h-auto bg-cover bg-center bg-no-repeat ">
+        <!-- Navbar -->
+        <nav class="container mx-auto flex items-center justify-between text-white">
+            <div class="flex items-center">
+                <img src="logo1.svg" class="h-14 w-14 md:h-20 md:w-20 ml-5" alt="Logo 1">
+                <img src="logo2.svg" class="lg:h-36 lg:w-36 h-32 w-28" alt="Logo 2">
+            </div>
+            <ul class="md:flex space-x-8 capitalize cursor-pointer hidden font-font-roboto text-[14px] font-normal">
+                <li>home</li>
+               <a href="#about"> <li>about us</li></a>
+                <a href="#services"><li>services</li></a>
+                <a href="testimonials"><li>testimonials</li></a>
+               <a href="#contact"><li>contact</li></a>
+            </ul>
+            <button class="cursor-pointer bg-custom-pink px-4 py-3 font-font-saira font-bold rounded-md mx-10 hidden md:block capitalize text-[12px]">call to action</button>
+            <button class="md:hidden text-3xl text-custom-white font-bold font-custom px-4"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class=" container flex flex-col items-center h-full mx-auto  text-gray-200 lg:w-[36%] lg:mt-[80px] ">
+            <div class="capitalize text-md lg:text-[21px] tracking-wide font-font-saira">sub heading</div>
+            <div class="font-font-inter tracking-normal font-extrabold text-custom-white text-[35px] lg:text-[70px] mx-14 lg:mx-0 capitalize leading-tight ">Lorem Ipsum is simply dummy</div>
+            <p class="text-[14px] lg:text-[15px] font-normal text-custom-gray text-center mx-10 lg:mx-2 mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <div class="flex items-center justify-center mt-5">
+                <button class="capitalize cursor-pointer bg-custom-pink font-semibold text-[14px] font-font-saira text-custom-white px-4 py-2 rounded-md mx-6">contact us</button>
+                <button class="flex font-semibold text-[14px] items-center font-font-saira"><img src="explore.svg" class="mx-2" alt="">Explore NOW</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="bg-custom-blue h-auto lg:h-screen flex items-center justify-center -mt-2">
+        <div class="container lg:mx-auto flex lg:flex-row flex-col-reverse justify-center items-center lg:h-auto h-full px-4 lg:px-0 mx-5 mt-10 lg:mt-0">
+            
+            <!-- Left Side: Text and Cards -->
+            <div class="w-full lg:w-1/2 flex flex-col justify-center mx-20  mb-10 lg:mb-0">
+                <div class="font-font-inter font-extrabold text-custom-white text-[36px] lg:text-[47px] capitalize mt-2 text-center lg:text-left">about us</div>
+                <p class="font-font-inter font-normal text-[12px] lg:text-[14px] text-custom-gray lg:mt-4 mt-2 text-center lg:text-left lg:w-[80%]">
+                    We are dedicated to bridging the gap between technology and people. Our mission is to make advanced tech solutions accessible and user-friendly, revolutionizing your interaction with technology.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 mt-8 gap-5">
+                    <div class="flex bg-custom-dark p-4 rounded-lg space-x-4 border-[1.5px] border-slate-500">
+                        <img src="card1.svg" class="shrink-0 lg:h-16 lg:w-16 h-12 w-12" alt="Innovation">
+                        <div>
+                            <div class="lg:text-[16px] capitalize text-white font-bold text-[14px]">innovation</div>
+                            <p class="text-custom-gray lg:text-[14px] text-[12px]">Continuously seeking new ways to innovate.</p>
+                        </div>
+                    </div>
+                    <div class="flex bg-custom-dark p-4 rounded-lg space-x-4 border-[1.5px] border-slate-500">
+                        <img src="card2.svg" class="shrink-0 lg:h-16 lg:w-16 h-12 w-12" alt="Excellence">
+                        <div>
+                            <div class="lg:text-[16px] capitalize text-white font-bold text-[14px]">excellence</div>
+                            <p class="text-custom-gray lg:text-[14px] text-[12px]">Delivering high-quality products and services.</p>
+                        </div>
+                    </div>
+                    <div class="flex bg-custom-dark p-4 rounded-lg space-x-4 border-[1.5px] border-slate-500">
+                        <img src="card3.svg" class="shrink-0 lg:h-16 lg:w-16 h-12 w-12" alt="Integrity">
+                        <div>
+                            <div class="lg:text-[16px] capitalize text-white font-bold text-[14px]">integrity</div>
+                            <p class="text-custom-gray lg:text-[14px] text-[12px]">Conducting business with honesty.</p>
+                        </div>
+                    </div>
+                    <div class="flex bg-custom-dark p-4 rounded-lg space-x-4 border-[1.5px] border-slate-500">
+                        <img src="card4.svg" class="shrink-0 lg:h-16 lg:w-16 h-12 w-12" alt="Collaboration">
+                        <div>
+                            <div class="lg:text-[16px] capitalize text-white font-bold text-[14px]">collaboration</div>
+                            <p class="text-custom-gray lg:text-[14px] text-[12px]">Fostering a collaborative environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Side: Image -->
+            <div class="w-full lg:w-1/2 flex justify-center items-center mt-10">
+                <div class="relative pb-4 pr-2 border-[1px] border-white rounded-lg">
+                    <img src="Picture → Niice-brandshoot-60.webp.png" 
+                         class="rounded-lg lg:h-[50vh] h-full -mt-3 -ml-3" 
+                         alt="About Us Image">
+                </div>
+            </div>
+    </section>
+    
+
+    <!--services-->
+    <section class="bg-custom-blue h-auto w-full -mt-2" id="services">
+        <div class="container flex flex-col items-center justify-center text-center mx-auto lg:w-[40%]">
+            <div class="capitalize lg:text-[50px] font-font-inter text-custom-white font-extrabold text-[36px] lg:mt-14">services</div>
+            <p class="font-font-inter font-normal text-[12px] lg:text-[15px] text-custom-gray lg:mt-4 mt-2 mx-12" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+        </div>
+        <div class="container mx-auto mt-5  gap-5">
+            <div class="flex flex-col justify-center items-center gap-5 lg:flex-row">
+                <div class=" bg-transparent p-4 rounded-lg lg:mt-5 border-[1.5px] border-slate-500 w-[217px] h-[272px] lg:h-[304px]   lg:w-[283px]">
+                    <img src="service1.svg" alt="">
+                    <div class="font-font-inter font-semibold lg:text-[18px] text-[15px] text-custom-white mt-[23px]">Fractional CTO</div>
+                    <p class="text-custom-gray text-[11px] lg:text-[14px]">A Fractional CTO is an experienced Chief Technology Officer who provides part-time or temporary leadership and strategic guidance for a company's technology needs</p>
+                    <ul class="list-disc text-custom-white p-4 text-[11px] lg:text-[14px]">
+                        <li>
+                            Game development
+                        </li>
+                        <li>
+                            Responsive web design
+                        </li>
+
+                    </ul>
+                </div>
+                <div class=" bg-transparent p-4 rounded-lg lg:mt-5 border-[1.5px] border-slate-500 w-[217px] h-[272px] lg:h-[304px]   lg:w-[283px]">
+                    <img src="service2.svg" alt="">
+                    <div class="font-font-inter font-semibold lg:text-[18px] text-[15px] text-custom-white mt-[23px]">Custom software development</div>
+                    <p class="text-custom-gray lg:text-[14px] text-[11px]">Custom software development is the process of designing, creating, and maintaining software tailored to meet the specific needs of an individual.</p>
+                    <ul class="list-disc text-custom-white p-4 lg:text-[14px] text-[11px]">
+                        <li>
+                            Software development                        </li>
+                        <li>
+                             web design
+                        </li>
+
+                    </ul>
+                </div>
+                <div class=" bg-transparent p-4 rounded-lg lg:mt-5 border-[1.5px] border-slate-500 w-[217px] h-[272px] lg:h-[304px]   lg:w-[283px]">
+                    <img src="service3.png" alt="">
+                    <div class="font-font-inter font-semibold lg:text-[18px] text-[15px] text-custom-white mt-[23px]">Software Maintenance Services</div>
+                    <p class="text-custom-gray lg:text-[14px] text-[11px]">Software maintenance services involve the ongoing updating, optimization, and repair of software to ensure it remains functional, secure, and efficient.</p>
+                    <ul class="list-disc text-custom-white p-4 lg:text-[14px] text-[11px]">
+                        <li>
+                            Maintainence
+                        </li>
+                        <li>
+                            Update
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="lg:flex justify-center w-full gap-5 mx-auto mt-5 hidden ">
+                <div class=" bg-transparent p-4 rounded-lg border-[1.5px] border-slate-500 w-[217px] h-[272px] lg:h-[304px]   lg:w-[283px]">
+                    <img src="service4.png" alt="">
+                    <div class="font-font-inter font-semibold lg:text-[18px] text-[15px] text-custom-white mt-[23px]">UI/UX designer</div>
+                    <p class="text-custom-gray lg:text-[14px] text-[11px]">Web development is the process of creating websites and web applications for the internet intranet.</p>
+                    <ul class="list-disc text-custom-white p-4 lg:text-[14px]">
+                        <li>
+                            Full-stack development                        </li>
+                        <li>
+                            Responsive web design
+                        </li>
+
+                    </ul>
+                </div>
+                <div class=" bg-transparent p-4 rounded-lg border-[1.5px] border-slate-500 w-[217px] h-[272px] lg:h-[304px]   lg:w-[283px]">
+                    <img src="service5.svg" alt="">
+                    <div class="font-font-inter font-semibold lg:text-[18px] text-[15px] text-custom-white mt-[23px]">Lead architect services</div>
+                    <p class="text-custom-gray lg:text-[14px] text-[11px]">Lead architecture service provides expert guidance and oversight in designing and implementing the overall structure and framework of complex systems or projects.</p>
+                    <ul class="list-disc text-custom-white p-4 lg:text-[14px]">
+                        <li>
+                            Designing framework
+                        </li>
+                        <li>
+                            Designing
+                        </li>
+
+                    </ul>
+                </div>
+                <div class=" bg-transparent p-4 rounded-lg border-[1.5px] border-slate-500 w-[217px] h-[272px] lg:h-[304px]   lg:w-[283px]">
+                    <img src="service6.svg" alt="">
+                    <div class="font-font-inter font-semibold lg:text-[18px] text-[15px] text-custom-white mt-[23px]"> Engineering leadership</div>
+                    <p class="text-custom-gray lg:text-[14px] text-[11px]">Engineering leadership involves guiding and managing engineering teams to achieve technical goals, foster innovation, and ensure the successful delivery of projects.</p>
+                    <ul class="list-disc text-custom-white p-4 lg:text-[14px]">
+                        <li>
+                            Focus on goals
+                        </li>
+                        <li>
+                            Innovations
+                        </li>
+
+                    </ul>
+                </div>
+    
+        </div>
+
+           
+        </div>
+        <div class="flex justify-center">
+            <button class="capitalize cursor-pointer bg-custom-pink font-semibold text-[14px] text-custom-white px-4 py-3 rounded-sm mt-5 lg:mt-5 lg:hidden font-font-saira">view all</button>
+
+        </div>
+
+
+    </section>
+
+    <!--reviews-->
+    <section id="testimonials" class="bg-custom-blue h-auto flex flex-col justify-center items-center  -mt-2" >
+        <div class="container flex flex-col text-center mx-auto  lg:w-[40%]">
+            <div class="uppercase font-font-saira tracking-wider font-medium text-custom-darkg lg:text-[22px] text-[15px] mt-20 lg:mt-32">client experiences</div>
+            <div class="capitalize lg:text-[47px] text-[27px] font-font-inter text-custom-white font-extrabold leading-tight ">appreciations from our satisfied customers</div>
+            </div>
+            <div class="container flex flex-col justify-center items-center lg:mx-auto   mt-5 gap-2 lg:gap-5">
+                <div class="flex flex-col lg:flex-row justify-center items-center w-full gap-5 mx-auto">
+                    <div class="relative bg-transparent p-4 rounded-lg mt-5 border-[1.5px] border-slate-500 w-[345px] h-[228px] lg:w-[530px] lg:h-[216px]">
+                        <div class="flex space-x-2 items-center">
+                            <img src="review1.png" class="h-[3rem] w-[3rem]" alt="">
+                            <div class="font-font-poppins text-[14px] font-bold text-custom-white">Janie doze
+                                <div class="font-font-poppins text-[9px] text-custom-white">CEO At atlantis.com</div>
+
+                            </div>
+                            <div class="absolute top-5 right-5 text-custom-white text-[12px] justify-between flex mx-auto">May 9, 2023</div>
+
+                        </div>
+                        <p class="font-font-inter text-[12px] text-custom-lgray text-left mt-3 w-[80%]">“Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. and utoor himenaeos. Praesent nec neque at dolor venenatis consectetur european gon Donec lacinia placerat felis non aliquam.”</p>
+                        <div class="mt-5 flex justify-between">
+                            <img src="trustpilot.png" alt="">
+                            <div>
+                                <i class="fa-solid fa-star text-yellow-400"></i>
+                            <i class="fa-solid fa-star  text-yellow-400"></i>
+                            <i class="fa-solid fa-star  text-yellow-400"></i>
+                            <i class="fa-solid fa-star  text-yellow-400"></i>
+                            <i class="fa-solid fa-star  text-yellow-400"></i>
+                            </div>
+                            
+                        </div>
+
+                        </div>
+                      
+                    <div class="relative bg-transparent p-4 rounded-lg lg:mt-3 border-[1.5px] border-slate-500 w-[345px] h-[228px]">
+                        <div class="flex space-x-2 items-center">
+                            <img src="review2.png" class="h-[3rem] w-[3rem]" alt="">
+                            <div class="font-font-poppins font-bold text-custom-white text-[14px]">Alan char
+                                <div class="font-font-poppins text-[9px] text-custom-white">CEO At atlantis.com</div>
+                            </div>
+                            <div class="absolute top-5 right-5 text-custom-white text-[12px] justify-between flex mx-auto">May 9, 2023</div>
+
+                        </div>
+                        <p class="font-font-inter text-[12px] text-custom-lgray text-left mt-3 w-[90%]">“Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. and utoor himenaeos. Praesent nec neque at dolor venenatis consectetur european gon Donec lacinia placerat felis ”</p>
+                        <div class="mt-5 flex justify-between">
+                            <img src="google.png" alt="">
+                            <div>
+                                <i class="fa-solid fa-star text-yellow-400"></i>
+                            <i class="fa-solid fa-star  text-yellow-400"></i>
+                            <i class="fa-solid fa-star  text-yellow-400"></i>
+                            <i class="fa-solid fa-star  text-yellow-400"></i>
+                            <i class="fa-solid fa-star  text-yellow-400"></i>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                    </div>
+                    <div class="flex flex-col lg:flex-row items-center justify-center w-full lg:gap-5 mx-auto">
+                        <div class="relative bg-transparent p-4 rounded-lg mt-3 border-[1.5px] border-slate-500 w-[345px] h-[228px]">
+                            <div class="flex space-x-2 items-center">
+                                <img src="review3.png" class="h-[3rem] w-[3rem]" alt="">
+                                <div class="font-font-poppins font-bold text-custom-white text-[14px]">Henly buraq
+                                    <div class="font-font-poppins text-[9px] text-custom-white">Freelncer</div>
+                                </div>
+                                <div class="absolute top-5 right-5 text-custom-white text-[12px] justify-between flex mx-auto">May 9, 2023</div>
+    
+                            </div>
+                            <p class="font-font-inter text-[12px] text-custom-lgray text-left mt-3 w-[90%]">“Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. and utoor himenaeos. Praesent nec neque at dolor venenatis consectetur european gon Donec lacinia placerat felis ”</p>
+                            <div class="mt-5 flex justify-between">
+                                <img src="google.png" alt="">
+                                <div>
+                                    <i class="fa-solid fa-star text-yellow-400"></i>
+                                <i class="fa-solid fa-star  text-yellow-400"></i>
+                                <i class="fa-solid fa-star  text-yellow-400"></i>
+                                <i class="fa-solid fa-star  text-yellow-400"></i>
+                                <i class="fa-solid fa-star  text-yellow-400"></i>
+                                </div>
+                                
+                            </div>
+    
+                        </div>
+                        <div class="relative bg-transparent p-4 rounded-lg mt-5 border-[1.5px] border-slate-500 w-[345px] h-[228px] lg:w-[530px] lg:h-[216px]">
+
+     <div class="flex space-x-2 items-center">
+                            <img src="review4.png" class="h-[3rem] w-[3rem]" alt="">
+                            <div class="font-font-poppins text-[14px] font-bold text-custom-white">janie doze
+                                <div class="font-font-poppins text-[9px] text-custom-white">CEO At atlantis.com</div>
+
+                            </div>
+                            <div class="absolute top-5 right-5 text-custom-white text-[12px] justify-between flex mx-auto">May 14, 2023</div>
+
+                        </div>
+                        <p class="font-font-inter text-[12px] text-custom-lgray text-left mt-3 w-[80%]">“Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. and utoor himenaeos. Praesent nec neque at dolor venenatis consectetur european gon Donec lacinia placerat felis non aliquam.”</p>
+                        <div class="mt-5 flex justify-between">
+                            <img src="trustpilot.png" alt="">
+                            <div>
+                                <i class="fa-solid fa-star text-yellow-400"></i>
+                            <i class="fa-solid fa-star  text-yellow-400"></i>
+                            <i class="fa-solid fa-star  text-yellow-400"></i>
+                            <i class="fa-solid fa-star  text-yellow-400"></i>
+                            <i class="fa-solid fa-star  text-yellow-400"></i>
+                            </div>
+                            
+                        </div>
+
+                        </div>
+                       
+                        </div>
+
+        </div>
+    </section>
+    <!--contact-->
+    <section id="contact" class="bg-custom-blue  h-auto flex justify-center -mt-2 lg:py-24">
+        <div class="container flex flex-col lg:flex-row items-center mt-10 lg:mt-0">
+            <div class="w-full lg:w-1/2 flex flex-col justify-center p-8 mx-32">
+                <div class="uppercase font-font-saira tracking-wider font-medium text-custom-darkg text-[15px] lg:text-[22px]">
+                    contact with us
+                </div>
+                <div class="uppercase lg:text-[40px] text-custom-white font-bold font-font-inter text-[29px]">let's work together?</div>
+                <p class="font-font-inter text-[14px] text-custom-gray lg:w-[90%] tracking-wide">
+                    I have worls-class, flexible support via live chat, email and phone. I guarantee that you’ll be able to have any issue resolved within 24 hours.
+                </p>
+                <ul class="list-none mt-5 leading-6">
+                    <li class="font-font-inter text-[12px] text-custom-white flex ">
+                        <img src="location.png" class="w-[16.45px] h-[17.9px] " alt="">168/170, Avenue 01, Old York
+                    </li>
+                    <li class="font-font-inter text-[12px] text-custom-white flex">
+                        <img src="phone.png" class="w-[16.45px] h-[17.9px]" alt="">+880 566 1111 985
+                    </li>
+                    <li class="font-font-inter text-[12px] text-custom-white flex">
+                        <img src="msg.png" class="w-[16.45px] h-[17.9px]" alt="">info@example.com
+                    </li>
+
+                </ul>
+            </div>
+            <div class="max-w-md bg-black lg:mx-32 lg:p-10 p-2 rounded-md flex flex-col justify-center mx-3 mt-2 mb-8 border-[1.5px] border-slate-500">
+                
+                <!--form-->
+                <form class="space-y-4">
+                    <div class="capitalize font-font-inter font-extrabold text-[16px] text-custom-white text-center mb-10 ">make a free consulting</div>
+                    <div class="flex space-x-4">
+                        <!-- First Name -->
+                        <div class="w-1/2">
+                            <label class="block text-custom-white font-font-inter text-[12px] font-bold outline-none">First Name</label>
+                            <input type="text" class=" w-full p-2 border border-slate-700 rounded-lg text-custom-white bg-gray-900" />
+                        </div>
+                        <!-- Last Name -->
+                        <div class="w-1/2">
+                            <label for="last-name" class="block text-custom-white font-font-inter text-[12px] font-bold">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" class="w-full p-2 border border-slate-700 bg-gray-900 rounded-lg text-custom-white" />
+                        </div>
+                    </div>
+                    <!-- Email -->
+                    <div>
+                        <label for="email" class="block text-custom-white font-font-inter text-[12px] font-bold">Email</label>
+                        <input type="email" id="email" name="email" class="w-full p-2 border border-slate-700 rounded-lg bg-gray-900 text-custom-white" />
+                    </div>
+                    <!-- Phone -->
+                    <div>
+                        <label class="block text-custom-white font-font-inter text-[12px] font-bold">Phone</label>
+                        <input type="tel" class="w-full p-2 border border-slate-700 rounded-lg bg-gray-900 text-custom-white" />
+                    </div>
+                    <!-- Message -->
+                    <div>
+                        <label class="block text-custom-white font-font-inter text-[12px] font-bold">Message</label>
+                        <textarea rows="4" class="w-full p-2 border border-slate-700 rounded-lg bg-gray-900 text-custom-white resize-none"></textarea>
+                    </div>
+                    <!-- Submit Button -->
+                    <div>
+                        <button type="submit" class=" bg-custom-pink text-custom-white  px-[19px] py-[11px] font-font-saira rounded-sm">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="bg-custom-blue text-custom-white py-4 border-t border-slate-600 ">
+        <div class="container lg:mx-auto flex flex-col md:flex-row lg:justify-between lg:items-center ">
+            <div class="flex flex-col md:flex-row justify-between lg:items-center w-full space-y-2 md:space-y-0">
+            
+                <div class="text-center  md:flex-1 lg:ml-20">
+                    <div class="flex items-center justify-center md:justify-start">
+                        <img src="logo1.svg" class="h-14 w-14 lg:h-16 lg:w-16" alt="Logo 1">
+                        <img src="logo2.svg" class="lg:h-36 lg:w-36 h-32 w-28" alt="Logo 2">
+                    </div>
+                    <div class="lg:max-w-md  -mt-5 lg:mx-0">
+                        <p class=" text-left text-custom-gray lg:text-[15px] text-[13px] px-5 font-font-inter">
+                            Tech Nexus creates user-friendly websites that combine cutting-edge technology with stunning design.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="">
+                    <div class="flex mx-5 mt-4 leading-normal flex-col lg:flex-row lg:space-x-4 lg:justify-center lg:items-center lg:text-center font-font-poppins lg:text-[15px] text-[13px] capitalize">
+                        <a href="#" >explore</a>
+                        <a href="#">about us</a>
+                        <a href="#">how it works</a>
+                        <a href="#">help</a>
+                    </div>
+                </div>
+                <div class="md:flex-1  md:text-end mx-5 ">
+                    <div class="flex flex-col lg:items-center text-left">
+                        <h3 class="lg:text-[20px] font-font-inter font-semibold text-[17px] mt-4 lg:mt-7">Follow Us</h3>
+                        <p class="lg:text-[15px] text-[13px] font-font-poppins font-thin capitalize lg:mt-3 mt-2">Follow us on social network</p>
+                        <div class="flex space-x-4 lg:mt-4 mt-2">
+                            <a href="#" class="text-white"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="text-white"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
